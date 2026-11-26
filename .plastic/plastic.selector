@@ -1,0 +1,4 @@
+repository "TheGreatWeaponMaster_Project@Capstone_Project_TheGreatWeaponMaster@cloud"
+  path "/"
+    br "/main"
+    co "/main"

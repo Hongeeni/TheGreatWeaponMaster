@@ -1,0 +1,76 @@
+# Unity 프로젝트 루트(Assets, Packages, ProjectSettings가 있는 폴더)에 둡니다.
+# 원본 이미지, 모델, 오디오, 영상, .asset 파일과 짝이 되는 .meta 파일은 함께 커밋합니다.
+# Based on https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# Unity 캐시, 개인 에디터 설정, 캡처 및 빌드 폴더
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emory[Cc]aptures/
+/[Rr]ecordings/
+/.utmp/
+/ExportedObj/
+/UIElementsSchema/
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
+
+# IDE 및 빌드 도구가 생성하는 파일
+.vs/
+.gradle/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.DotSettings.user
+*.booproj
+*.pidb
+*.pidb.meta
+*.svd
+*.svd.meta
+*.pdb
+*.pdb.meta
+*.mdb
+*.mdb.meta
+*.opendb
+*.VC.db
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# 로그 및 충돌 보고서
+*.log
+/sysinfo.txt
+mono_crash.*
+crashlytics-build.properties
+
+# Android 빌드 결과물 및 로컬 Gradle 설정
+*.apk
+*.aab
+*.obb
+/[Aa]ssets/Plugins/Android/**/local.properties
+/[Aa]ssets/Plugins/Android/**/*.gradle.backup*
+
+# Unity 도구가 자동 생성하는 폴더와 해당 메타데이터
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+/[Aa]ssets/GeneratedLocalRepo/
+/[Aa]ssets/GeneratedLocalRepo.meta
+/[Aa]ssets/[Ss]ceneDependencyCache*
+/[Aa]ssets/Addressables_Temp/
+/[Aa]ssets/Addressables_Temp.meta
+/[Aa]ssets/StreamingAssets/aa/
+/[Aa]ssets/StreamingAssets/aa.meta
+/ServerData/
+/[Aa]ssets/AddressableAssetsData/link.xml
+/[Aa]ssets/AddressableAssetsData/link.xml.meta
+
+# 운영체제가 생성하는 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
